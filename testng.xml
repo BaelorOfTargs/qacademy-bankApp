@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/dudu/eclipse-workspace/DusanMarinkovicFinalExam">
+        <classes>
+            <class name="automation.api.ApiTestCrocodiles">
+                <methods>
+                    <include name="getPublicCrocodiles"/>
+                    <include name="createNewCrocsUser"/>
+                    <include name="createNewCrocodile"/>
+                    <include name="getMyCrocs"/>
+                    <include name="getMySigleCroc"/>
+                    <include name="patchCrocs"/>
+                    <include name="putCrocs"/>
+                    <include name="deleteCrocodile"/>
+                </methods>
+            </class>
+            <class name="automation.ui.test.BankAccountTest">
+                <methods>
+                    <include name="elementAssertation"/>
+                    <include name="emptyFieldsTest"/>
+                    <include name="wrongCredentialsTest"/>
+                    <include name="allBlankSpacesTest"/>
+                    <include name="createValidBankAccount"/>
+                    <include name="deleteBankAccount"/>
+                </methods>
+            </class>
+            <class name="automation.ui.test.HomePageTest">
+                <methods>
+                    <include name="elementAssertation"/>
+                </methods>
+            </class>
+            <class name="automation.ui.test.LoginTest">
+                <methods>
+                    <include name="assertElements"/>
+                    <include name="emptyFields"/>
+                    <include name="wrongCredentialsTry"/>
+                    <include name="correctLogin"/>
+                </methods>
+            </class>
+            <class name="automation.ui.test.MyAccountTest">
+                <methods>
+                    <include name="elementsAssert"/>
+                    <include name="textValueAssert"/>
+                </methods>
+            </class>
+            <class name="automation.ui.test.NotificationsAssert">
+                <methods>
+                    <include name="assertElements"/>
+                </methods>
+            </class>
+            <class name="automation.ui.test.SignUpTest">
+                <methods>
+                    <include name="assertElements"/>
+                    <include name="emptyFieldsTry"/>
+                    <include name="wrongCredentials"/>
+                </methods>
+            </class>
+            <class name="automation.ui.test.TransactionTest">
+                <methods>
+                    <include name="assertElements"/>
+                    <include name="tryEmptyFields"/>
+                </methods>
+            </class>
+            <class name="automation.ui.test.TransactionFlowTest">
+                <methods>
+                    <include name="createRequestTransaction"/>
+                    <include name="createPayTransaction"/>
+                    <include name="amountBiggerThanAccountBalance"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

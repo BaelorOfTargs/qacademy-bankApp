@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DusanMarinkovicFinalExam(failed)">
+    <classes>
+      <class name="automation.ui.test.TransactionTest">
+        <methods>
+          <include name="goToHomePage"/>
+          <include name="amountBiggerThanAccountBalance"/>
+          <include name="createPayTransaction"/>
+          <include name="setupBrowser"/>
+          <include name="clearAll"/>
+          <include name="createRequestTransaction"/>
+        </methods>
+      </class> <!-- automation.ui.test.TransactionTest -->
+    </classes>
+  </test> <!-- DusanMarinkovicFinalExam(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
